@@ -15,7 +15,7 @@ class AddPostVC: UIViewController {
     @IBOutlet weak var titleField: UITextField!
     @IBOutlet weak var descriptionField: UITextField!
     
-    
+    var textRdn = "randomText"smallestEncoding
     
     
     override func viewDidLoad() {
