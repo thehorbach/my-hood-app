@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112393FC1C98CB3100786E36 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112393FB1C98CB3100786E36 /* AddPostVC.swift */; };
 		11A234F21C975AFD0060C535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A234F11C975AFD0060C535 /* AppDelegate.swift */; };
 		11A234F41C975AFD0060C535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A234F31C975AFD0060C535 /* ViewController.swift */; };
 		11A234F71C975AFE0060C535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A234F51C975AFE0060C535 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		112393FB1C98CB3100786E36 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 		11A234EE1C975AFD0060C535 /* my-hood-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-hood-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A234F11C975AFD0060C535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11A234F31C975AFD0060C535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		112393FA1C98CAE900786E36 /* Conroller */ = {
+			isa = PBXGroup;
+			children = (
+				11A234F31C975AFD0060C535 /* ViewController.swift */,
+				112393FB1C98CB3100786E36 /* AddPostVC.swift */,
+			);
+			name = Conroller;
+			sourceTree = "<group>";
+		};
 		11A234E51C975AFD0060C535 = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +71,9 @@
 			children = (
 				11A235031C975BCC0060C535 /* Model */,
 				11A235061C9770380060C535 /* View */,
+				112393FA1C98CAE900786E36 /* Conroller */,
 				11A234F11C975AFD0060C535 /* AppDelegate.swift */,
-				11A234F31C975AFD0060C535 /* ViewController.swift */,
-				11A234F51C975AFE0060C535 /* Main.storyboard */,
 				11A234F81C975AFE0060C535 /* Assets.xcassets */,
-				11A234FA1C975AFE0060C535 /* LaunchScreen.storyboard */,
 				11A234FD1C975AFE0060C535 /* Info.plist */,
 			);
 			path = "my-hood-app";
@@ -81,6 +90,8 @@
 		11A235061C9770380060C535 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				11A234FA1C975AFE0060C535 /* LaunchScreen.storyboard */,
+				11A234F51C975AFE0060C535 /* Main.storyboard */,
 				11A235071C9770620060C535 /* PostCell.swift */,
 			);
 			name = View;
@@ -160,6 +171,7 @@
 			files = (
 				11A235051C975BEA0060C535 /* Post.swift in Sources */,
 				11A234F41C975AFD0060C535 /* ViewController.swift in Sources */,
+				112393FC1C98CB3100786E36 /* AddPostVC.swift in Sources */,
 				11A234F21C975AFD0060C535 /* AppDelegate.swift in Sources */,
 				11A235081C9770620060C535 /* PostCell.swift in Sources */,
 			);
@@ -311,6 +323,7 @@
 				11A235021C975AFE0060C535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
