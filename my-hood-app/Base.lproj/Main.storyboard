@@ -51,7 +51,7 @@
                                                         <constraint firstAttribute="height" constant="46" id="s7W-wZ-dWF"/>
                                                     </constraints>
                                                     <string key="text">Hey, this neighbour is such a punk! He blasts his bad music way toooo loud and I am thinking about calling the police. Whop-Whop!</string>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -183,7 +183,7 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="barrel-water-bridge" translatesAutoresizingMaskIntoConstraints="NO" id="SNa-Eh-Lat">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SNa-Eh-Lat">
                                 <rect key="frame" x="180" y="99" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="0gF-iR-WQu"/>
