@@ -22,10 +22,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let post = Post(imagePath: "", title: "Post 1", postDesc: "Some rdn description")
         let post2 = Post(imagePath: "", title: "Post 2", postDesc: "Another rnd description")
         let post3 = Post(imagePath: "", title: "Post 3", postDesc: "This is the least important description")
+        let post4 = Post(imagePath: "", title: "Post 4", postDesc: "One of the many cells")
         
         posts.append(post)
         posts.append(post2)
         posts.append(post3)
+        posts.append(post4)
         
         tableView.reloadData()
     }
